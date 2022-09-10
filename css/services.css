@@ -18,7 +18,7 @@
 
 /* decorating */
 ::after {
-    content: "";
+    content: "Our services";
     width: 60px;
     height: 1px;
     opacity: .2;
