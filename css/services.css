@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Signika:wght@300&display=swap);
+
+/* main properties */
+:root {
+    
+    --text-color: #3a3c43;
+    --headline-color: #44b749;
+    --background-color: #efefef;
+    --background-color-light: #ffffff;
+    --text-size: 17px;
+    --text-weight: 400;
+    --font-family-text: Lato, sans-serif;
+    --font-family-headline: Signika, sans-serif;
+     box-sizing: border-box;
+     text-align: left;
+     word-wrap: break-word;
+}
+
+/* decorating */
+::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    opacity: .2;
+    color: #3a3c43;
+}
+
+/* headlines */
+
+h2 {
+    color: var(--text-color);
+    font-family: var(--font-family-headline);
+    text-align: center;
+}
+
+h3 {
+    color: var(--headline-color);
+    font-family: var(--font-family-headline);
+}
