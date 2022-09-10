@@ -17,8 +17,9 @@
 }
 
 /* decorating */
-::after {
+.services_content_headline_text_block::after {
     content: "Our services";
+    text-decoration: underline;
     width: 60px;
     height: 1px;
     opacity: .2;
